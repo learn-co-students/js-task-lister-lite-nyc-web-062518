@@ -3,4 +3,7 @@
 // const allTasks = Array.from(document.getElementById("tasks").getElementsByTagName("li"))
 
 class Task {
+  constructor(description){
+    this.description = description
+  }
 }
